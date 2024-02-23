@@ -38,3 +38,15 @@ section .data
     unrelated DB 33         ; 0x00002100
                             ; memory -> 0x04030201 0x00002100
 ```
+
+# Strings
+
+Strings are lists of characters. Assembly accepts string literals enclosed in double quotes
+
+Like
+```asm
+section .data
+    string DB "Abc",0
+```
+
+Strings need a 0 (null character in ASCII) as terminator. 
