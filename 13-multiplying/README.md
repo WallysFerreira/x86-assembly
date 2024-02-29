@@ -4,6 +4,8 @@ The _MUL_ instruction receives only one argument, that is the second value of th
 
 This instruction always uses the A register as the first value of the operation. 
 
+It will NOT treat numbers with the MSB set as a negative number.
+
 ## Examples
 
 ### Using variable
@@ -36,3 +38,7 @@ _start:
 
 	int 0x80
 ```
+
+# IMUL instruction
+
+This instruction is identical to the _MUL_ instruction, except it treats numbers with the MSB set as a negative number.
