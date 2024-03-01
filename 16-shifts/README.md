@@ -13,7 +13,7 @@ Shifting `0b0110` to the right by 1 spot would result in `0b0011`.
 `0b0110` is `6` in decimal.
 Shifting right by 1 is the same as dividing by 2.
 `0b0011` is `3` in decimal.
-`6/3 = 2`.
+`6/2 = 3`.
 
 ## SHR and SHL instructions
 
